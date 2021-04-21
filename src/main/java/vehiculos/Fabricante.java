@@ -28,7 +28,7 @@ public class Fabricante {
     public Pais getPais(){
         return  pais;
     }
-    public static Fabricante FabricanteMasVendedor(){
+    public static Fabricante FabricanteMasVendido(){
         int mayor = 0;
         for(Fabricante fabricante : ArrayFabricantes){
             if (fabricante.vendidos > mayor){
