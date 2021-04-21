@@ -36,9 +36,9 @@ public class Fabricante {
             }
         }
         Fabricante FabricanteMasVendido = new Fabricante();
-        for(Fabricante fabricante : ArrayFabricantes){
+        for(Fabricante fabricante1 : ArrayFabricantes){
             if(fabricante.vendidos == mayor){
-                FabricanteMasVendido = fabricante;
+                FabricanteMasVendido = fabricante1;
             }
         }
         return FabricanteMasVendido;
